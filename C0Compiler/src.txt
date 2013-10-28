@@ -1,0 +1,44 @@
+const int x = 10;
+const int const1 = 10;
+const int const2 = 20;
+int var1;
+	
+int data[10];
+void sort()
+{
+	int i,j,t;
+	for(i=0;i<10;i=i+1)
+		for(j=i+1;j<10;j=j+1)
+			if(data[i]>data[j])
+			{
+				t=data[i];
+				data[i]=data[j];
+				data[j]=t;
+			}
+}
+int div(int a,int b)
+{
+	return (a/b);
+}
+void  main()
+{
+	int i,j,t,array[10];
+	array[0]=10;
+	var1=20;
+	printf(x);
+	printf(div(var1,2));
+	for(i=0;i<10;i=i+1){
+		scanf(t);
+		array[i]=t;
+	}
+	for(i=0;i<10;i=i+1)
+		for(j=i+1;j<10;j=j+1)
+			if(array[i]>array[j])
+			{
+				t=array[i];
+				array[i]=array[j];
+				array[j]=t;
+			}
+	for(i=0;i<10;i=i+1)
+		printf(array[i]);
+}

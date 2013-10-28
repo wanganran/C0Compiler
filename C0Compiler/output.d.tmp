@@ -1,0 +1,6 @@
+__STR0 db "true ",0
+__STR1 db "false ",0
+__STR2 db "true ",0
+__STR3 db "false ",0
+__STR4 db "function1: ",0
+__STR5 db "function2: ",0

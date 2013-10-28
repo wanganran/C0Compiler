@@ -1,0 +1,30 @@
+
+int function1(int a , int b , char c){
+	int p , q;
+	int x ; 
+	
+	const int r = 5;
+	const int z = 5;
+	
+	if (a == 1)
+		if (b == 1)
+			if (c == 'a'){
+				printf("true ");
+				return (1);
+			}
+	printf("false ");
+	return (0);
+}
+int function2(int a , int b , char c){
+	if (a == 1)
+		if (b == 1)
+			if (c == 'a'){
+				printf("true ");
+				return (1);
+			}
+	printf("false ");
+	return (0);
+}
+void main(){
+	printf("function1: " , function1(1 , 1 , 'a'));
+	printf("function2: " , function2(1 , 2 , 'b'));

@@ -1,0 +1,23 @@
+const int c=100;
+int x;
+int y;
+
+int max(int x,int y){
+   if(x>y)
+      return (x);
+   else
+      return (y);
+}
+
+void main(){
+   int x;
+   int y;
+   int i;
+   
+   scanf(x,y);
+   printf(max(x,3));
+   
+   for(i=0;i<y;i=i+10){
+      x=y/10;
+   }
+}
